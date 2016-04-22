@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="Proyecto_Clinic_Veterinaria.AddTipoAtencion"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+             mc:Ignorable="d" d:DesignWidth="650" Height="222.832">
+    <UserControl.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <StackPanel>
+                            <Border BorderThickness="2" BorderBrush="DarkRed">
+                                <StackPanel>
+                                    <AdornedElementPlaceholder x:Name="errorControl" />
+                                </StackPanel>
+                            </Border>
+                            <TextBlock Text="{Binding AdornedElement.ToolTip , ElementName=errorControl}" Foreground="Red" FontSize="8.5" Width="Auto"/>
+                        </StackPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="BorderBrush" Value="Red" />
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Label x:Name="label" Content="Nombre" HorizontalAlignment="Left" Margin="214,28,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Motivo" HorizontalAlignment="Left" Margin="220,76,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Importancia" HorizontalAlignment="Left" Margin="251,157,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ImportanciatextBox1" Text="{Binding Importancia, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="23" Margin="329,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30"/>
+        <Label x:Name="label3" Content="Usuario" HorizontalAlignment="Left" Margin="218,118,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="UsuariocomboBox" HorizontalAlignment="Left" Margin="273,118,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="UsuariocomboBox_SelectionChanged"/>
+        <Button x:Name="Acceptbutton" HorizontalAlignment="Left" Margin="406,177,0,0" VerticalAlignment="Top" Width="36" Height="36" Click="Acceptbutton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Icon/Plus-48.png"/>
+            </Button.Background>
+        </Button>
+        <ComboBox x:Name="NombrecomboBox" HorizontalAlignment="Left" Margin="273,32,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Control"/>
+            <ComboBoxItem Content="Vacunacion"/>
+            <ComboBoxItem Content="Corte Pelo"/>
+        </ComboBox>
+        <ComboBox x:Name="MotivocomboBox_Copy" IsEnabled="False" HorizontalAlignment="Left" Margin="273,76,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Control"/>
+            <ComboBoxItem Content="Post Operatorio"/>
+            <ComboBoxItem Content="Post Parto"/>
+            <ComboBoxItem Content="Corte"/>
+            <ComboBoxItem Content="Anti rabia"/>
+            <ComboBoxItem Content="Anti Parasitaria"/>
+            <ComboBoxItem Content="Quadruple"/>
+        </ComboBox>
+    </Grid>
+</UserControl>

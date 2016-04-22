@@ -1,0 +1,177 @@
+﻿<Window x:Class="Proyecto_Clinic_Veterinaria.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize"
+        Title="Animalisima" Height="800" Width="900">
+    <Window.Background>
+        <ImageBrush ImageSource="Icon/Background/3.jpg" Stretch="UniformToFill" TileMode="Tile"/>
+    </Window.Background>
+    <Window.Resources>
+        <Style x:Key="FontNew">
+            <Setter Property="TextElement.FontFamily" 
+                Value="/Fonts/#Aloha"/>
+            <Setter Property="TextElement.Foreground"
+                    Value="#FF126080"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Menu IsMainMenu="True" Foreground="#FF126080"  Margin="10,168,0,10" Block.LineStackingStrategy="BlockLineHeight" HorizontalAlignment="Left" Width="196" Background="#B2F0F0F0" BorderBrush="#FF07222C">
+            <Menu.Effect>
+                <DropShadowEffect/>
+            </Menu.Effect>
+            <MenuItem Name="MenuItemClientes" Header="   Clientes" Width="171" FontSize="18.667" Height="38" Foreground="#FF126080">
+                <MenuItem.Icon >
+                    <Image Source="Icon/Clients.png" Margin="-3,-6,-22,-8"/>
+                </MenuItem.Icon>
+                <MenuItem Name="MenuItemAddCli" Header="Añadir Clientes" Margin="5,5,5,5" Click="MenuItemAddCli_Click" Foreground="#FF126080">
+                    <MenuItem.Icon >
+                        <Image Source="Icon/Plus-48.png" Margin="-9,-4,-4,-4"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="MenuItemMantCli" Header="Mantenimiento Clientes" Margin="5,5,5,5" Click="MenuItemMantCli_Click">
+                    <MenuItem.Icon >
+                        <Image Source="Icon/report_edit.ico" Margin="-16,-2,-12,-7"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Name="MenuItemMascota" Header="   Mascotas" Width="171" FontSize="18.667" Height="39" Foreground="#FF126080">
+                <MenuItem.Icon>
+                    <Image Source="Icon/Cat Footprint-48.png" Height="38" VerticalAlignment="Top" Margin="-6,-9,-22,-13"/>
+                </MenuItem.Icon>
+                <MenuItem Name="MenuItemAddMascota" Header="Añadir Mascota" Margin="5,5,5,5" Click="MenuItemAddMascota_Click" >
+                    <MenuItem.Icon >
+                        <Image Source="Icon/Plus-48.png" Margin="-9,-4,-4,-4"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="MenuItemMantMascota" Header="Mantenimiento Mascotas" Margin="5,5,5,5" Click="MenuItemMantMascota_Click">
+                    <MenuItem.Icon >
+                        <Image Source="Icon/report_edit.ico" Margin="-16,-2,-12,-7"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Name="MenuItemJaulas" Header="   Jaulas" Width="171" FontSize="18.667" Height="39">
+                <MenuItem.Icon>
+                    <Image Source="Icon/wrapping_in_front.ico" Height="30" VerticalAlignment="Top" Margin="-7,-6,-26,-8"/>
+                </MenuItem.Icon>
+                <MenuItem Name="MenuItemAddJaula" Header="Añadir Jaula" Margin="5,5,5,5" Click="MenuItemAddJaula_Click" >
+                    <MenuItem.Icon >
+                        <Image Source="Icon/Plus-48.png" Margin="-9,-4,-4,-4"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="MenuItemMantJaulas" Header="Mantenimiento Jaulas" Margin="5,5,5,5" Click="MenuItemMantJaulas_Click">
+                    <MenuItem.Icon >
+                        <Image Source="Icon/report_edit.ico" Margin="-16,-2,-12,-7"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Name="MenuItemHotelHospi" Header="   Hotel/Hospital" Width="172" FontSize="18.667" Height="38">
+                <MenuItem.Icon>
+                    <Image Source="Icon/Clinic-48.png" Margin="0,-8,-19,-10"/>
+                </MenuItem.Icon>
+                <MenuItem Name="MenuItemAddHH" Header="Añadir Hotel/Hospital" Margin="5,5,5,5" Click="MenuItemAddHH_Click" >
+                    <MenuItem.Icon >
+                        <Image Source="Icon/Plus-48.png" Margin="-9,-4,-4,-4"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="MenuItemMantHH" Header="Mantenimiento Hotel/Hospital" Margin="5,5,5,5" Click="MenuItemMantHH_Click">
+                    <MenuItem.Icon >
+                        <Image Source="Icon/report_edit.ico" Margin="-16,-2,-12,-7"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Name="MenuItemCitas" Header="   Citas" Width="172" FontSize="18.667" Height="39" >
+                <MenuItem.Icon>
+                    <Image Source="Icon/note.ico" Margin="-7,-4,-26,-10"/>
+                </MenuItem.Icon>
+                <MenuItem Name="MenuItemAddCita" Header="Añadir Cita" Margin="5,5,5,5" Click="MenuItemAddCita_Click" >
+                    <MenuItem.Icon >
+                        <Image Source="Icon/Plus-48.png" Margin="-9,-4,-4,-4"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="MenuItemMantCitas" Header="Mantenimiento Citas" Margin="5,5,5,5" Click="MenuItemMantCitas_Click">
+                    <MenuItem.Icon >
+                        <Image Source="Icon/report_edit.ico" Margin="-16,-2,-12,-7"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Name="MenuItemAtencion" Header="   Tipo Atencion" Width="172" FontSize="18.667" Height="39">
+                <MenuItem.Icon>
+                    <Image Source="Icon/cog.ico" Margin="0,-7,-20,-3" />
+                </MenuItem.Icon>
+                <MenuItem Name="MenuItemAddTipoAten" Header="Añadir Tipo de Atencion" Margin="5,5,5,5" Click="MenuItemAddTipoAten_Click" >
+                    <MenuItem.Icon >
+                        <Image Source="Icon/Plus-48.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="MenuItemMantTipoAten" Header="Mantenimiento Tipo de Atencion" Margin="5,5,5,5" Click="MenuItemMantTipoAten_Click">
+                    <MenuItem.Icon >
+                        <Image Source="Icon/report_edit.ico" Margin="-16,-2,-12,-7"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Name="MenuItemUsers" Header="   Usuarios" Width="172" FontSize="18.667" Height="39" IsEnabled="False" >
+                <MenuItem.Icon>
+                    <Image Source="Icon/Medical Doctor-48.png" Margin="4,-12,-21,-11"/>
+                </MenuItem.Icon>
+                <MenuItem Name="MenuItemAddUsu" Header="Añadir Usuario" Margin="5,5,5,5" Click="MenuItemAddUsu_Click" >
+                    <MenuItem.Icon >
+                        <Image Source="Icon/Plus-48.png" Margin="-9,-4,-4,-4"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="MenuItemMantUsu" Header="Mantenimiento Usuarios" Margin="5,5,5,5" Click="MenuItemMantUsu_Click">
+                    <MenuItem.Icon >
+                        <Image Source="Icon/report_edit.ico" Margin="-16,-2,-12,-7"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <DockPanel Margin="211,168,10,10" Background="#7FECECEC">
+            <DockPanel.Effect>
+                <DropShadowEffect/>
+            </DockPanel.Effect>
+            <Label DockPanel.Dock="Top" Name="Titulo" Content="" VerticalAlignment="Top" FontSize="20pt" FontWeight="DemiBold"  Style="{DynamicResource FontNew}" Margin="100,0" HorizontalAlignment="Center"/>
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" >
+                <Canvas Name="canvas" SnapsToDevicePixels="True" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            </ScrollViewer>
+        </DockPanel>
+        <Image x:Name="image1" Source="Icon/banner_of.png" Margin="10,10,171,613" Stretch="Fill">
+            <Image.Effect>
+                <DropShadowEffect Color="#FF0E4C28" RenderingBias="Quality"/>
+            </Image.Effect>
+        </Image>
+        <Canvas Margin="728,10,10,613" Background="#BFFFFFFF">
+            <Canvas.Effect>
+                <DropShadowEffect/>
+            </Canvas.Effect>
+            <Image x:Name="image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="97" Source="Icon/profile.png" OpacityMask="White" Canvas.Left="27" Canvas.Top="10">
+                <Image.Effect>
+                    <DropShadowEffect Color="#FF0E4C30"/>
+                </Image.Effect>
+                <Image.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Name="ViewPerfil" Header="Ver Perfil" Click="ViewPerfil_Click">
+                            <MenuItem.Icon>
+                                <Image Source="Icon/user-id.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Name="LogOut" Header="Cerrar Sesion" Click="LogOut_Click">
+                            <MenuItem.Icon>
+                                <Image Source="Icon/log_off-512.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </Image.ContextMenu>
+            </Image>
+            <TextBlock x:Name="ProfileNick" Height="38" TextWrapping="Wrap" Text="Bienvenido " Canvas.Top="110" Width="124" Foreground="#FF126080" FontWeight="Heavy" FontSize="13.333"/>
+        </Canvas>
+
+    </Grid>
+</Window>

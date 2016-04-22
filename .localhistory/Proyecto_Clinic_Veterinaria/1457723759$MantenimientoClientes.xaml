@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="Proyecto_Clinic_Veterinaria.MantenimientoClientes"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+             mc:Ignorable="d" Width="600" Height="382" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+    <Grid>
+        <DataGrid x:Name="ClientesdataGrid" Margin="10,10,10,105" ItemsSource="{Binding}" AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Cliente Id" Binding="{Binding ClienteId}"/>
+                <DataGridTextColumn Header="Nombre Completo" Binding="{Binding NombreCompleto}"/>
+                <DataGridTextColumn Header="Direccion" Binding="{Binding Direccion}"/>
+                <DataGridTextColumn Header="Telefono" Binding="{Binding Telefono}"/>
+                <DataGridHyperlinkColumn Header="Email" Binding="{Binding Email}"/>
+                <DataGridTextColumn Header="Mascotaaaa" Binding="{Binding ListaMascota.Raza}"/>
+                <DataGridTemplateColumn >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Name="UpdateButton" Click="UpdateButton_Click">
+                                    <Image Source="Icons/Edit-48.png" Width="16" Height="16" />
+                                </Button>
+                                <Button Name="DeleteButton" Click="DeleteButton_Click">
+                                    <Image Source="Icon/Delete-48.png" Width="16" Height="16" />
+                                </Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

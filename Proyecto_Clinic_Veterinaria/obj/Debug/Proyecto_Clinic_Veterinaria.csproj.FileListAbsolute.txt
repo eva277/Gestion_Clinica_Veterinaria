@@ -1,0 +1,226 @@
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe.config
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csprojResolveAssemblyReference.cache
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\App.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.cache
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.lref
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.g.resources
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Properties.Resources.resources
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csproj.GenerateResource.Cache
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\Clinica_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe.config
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\Clinica_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\Clinica_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe.config
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.dll
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\PropertyChanged.dll
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.xml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\PropertyChanged.xml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddClient.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddJaula.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddMascota.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroCita.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroHotel_Hospital.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoCita.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Login.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MantenimientoUser.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\App.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.cache
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.lref
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddClient.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddJaula.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddMascota.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroCita.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroHotel_Hospital.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoCita.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Login.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MantenimientoUser.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.g.resources
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Migrations.inicial.resources
+<<<<<<< HEAD
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Migrations._2.resources
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Properties.Resources.resources
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csproj.GenerateResource.Cache
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe.config
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.dll
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\PropertyChanged.dll
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.xml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\PropertyChanged.xml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csprojResolveAssemblyReference.cache
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddClient.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddJaula.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddMascota.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroCita.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroHotel_Hospital.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoCita.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Login.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MantenimientoUser.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\App.g.cs
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.cache
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.lref
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddClient.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddJaula.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddMascota.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroCita.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroHotel_Hospital.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoCita.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Login.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MantenimientoUser.baml
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.g.resources
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Migrations.inicial.resources
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Migrations._2.resources
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Properties.Resources.resources
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csproj.GenerateResource.Cache
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe.config
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csprojResolveAssemblyReference.cache
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddClient.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddJaula.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddMascota.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroCita.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroHotel_Hospital.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoCita.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Login.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MantenimientoUser.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\App.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.cache
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.lref
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.dll
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\PropertyChanged.dll
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.xml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\PropertyChanged.xml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddClient.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddJaula.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddMascota.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroCita.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroHotel_Hospital.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoCita.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Login.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MantenimientoUser.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.g.resources
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Migrations.inicial.resources
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Migrations._2.resources
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Properties.Resources.resources
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csproj.GenerateResource.Cache
+=======
+C:\Users\dam215\Documents\Visual Studio 2015\Projects\Proyecto_Clinic_Veterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csprojResolveAssemblyReference.cache
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe.config
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.dll
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\PropertyChanged.dll
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.xml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\PropertyChanged.xml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csprojResolveAssemblyReference.cache
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddClient.g.cs
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddJaula.g.cs
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddMascota.g.cs
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroCita.g.cs
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroHotel_Hospital.g.cs
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoCita.g.cs
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Login.g.cs
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.g.cs
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddUser.g.cs
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\App.g.cs
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.cache
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.lref
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddClient.baml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddJaula.baml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddMascota.baml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroCita.baml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroHotel_Hospital.baml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoCita.baml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Login.baml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.baml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddUser.baml
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.g.resources
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Migrations.inicial.resources
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Properties.Resources.resources
+C:\Users\kalif\Documents\Visual Studio 2015\Projects\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csproj.GenerateResource.Cache
+>>>>>>> a8e9ded7d0a36514b040eb03225368f10771cbaa
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Migrations.citas.resources
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\bin\Debug\Proyecto_Clinic_Veterinaria.exe.config
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.exe
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.pdb
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.csprojResolveAssemblyReference.cache
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddClient.g.cs
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddJaula.g.cs
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddMascota.g.cs
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroCita.g.cs
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroHotel_Hospital.g.cs
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoCita.g.cs
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Login.g.cs
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.g.cs
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MantenimientoUser.g.cs
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\App.g.cs
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.cache
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria_MarkupCompile.lref
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddClient.baml
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddJaula.baml
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddMascota.baml
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroCita.baml
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddRegistroHotel_Hospital.baml
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoCita.baml
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Login.baml
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MainWindow.baml
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MantenimientoUser.baml
+C:\Users\dam215\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.g.resources
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MantenimientoClientes.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\MantenimientoClientes.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoCliente.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoCliente.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\UserControl1.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\UserControl1.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoMascota.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoMascota.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddUser.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoUser.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddUser.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoUser.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoJaula.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoJaula.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoTipoCita.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoRegistroCita.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoRegistroHotel_Hospital.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoTipoCita.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoRegistroCita.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoRegistroHotel_Hospital.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoAtencion.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoTipoAtencion.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\AddTipoAtencion.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Mantenimiento\MantenimientoTipoAtencion.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Proyecto_Clinic_Veterinaria.Migrations._1.resources
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Profile.g.cs
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\Profile.baml
+C:\Users\kalif\Desktop\ClinicVeterinaria\ClinicVeterinaria\Proyecto_Clinic_Veterinaria\obj\Debug\App.baml

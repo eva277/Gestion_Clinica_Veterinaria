@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="Proyecto_Clinic_Veterinaria.MantenimientoUsuario"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+             mc:Ignorable="d" Width="463.066" Height="400" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+    <Grid Margin="10,10,10,10">
+        <Label x:Name="label" Content="Usuario Id" HorizontalAlignment="Left" Margin="8,4,0,0" VerticalAlignment="Top" FontSize="10.667"/>
+        <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="12,33,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Apellidos" HorizontalAlignment="Left" Margin="7,64,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Direccion" HorizontalAlignment="Left" Margin="239,7,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Codigo Postal" HorizontalAlignment="Left" Margin="224,38,0,0" VerticalAlignment="Top" FontSize="10.667"/>
+        <Label x:Name="label5" Content="Telefono" HorizontalAlignment="Left" Margin="249,67,0,0" VerticalAlignment="Top" FontSize="10.667"/>
+        <Label x:Name="label6" Content="Email" HorizontalAlignment="Left" Margin="31,96,0,0" VerticalAlignment="Top" FontSize="10.667"/>
+        <Label x:Name="label7" Content="Tipo de Usuario" HorizontalAlignment="Left" Margin="215,96,0,0" VerticalAlignment="Top" FontSize="10.667"/>
+        <Label x:Name="label8" Content="NickName" HorizontalAlignment="Left" Margin="7,132,0,0" VerticalAlignment="Top" FontSize="10.667"/>
+        <Label x:Name="label9" Content="Password" HorizontalAlignment="Left" Margin="12,161,0,0" VerticalAlignment="Top" FontSize="10.667"/>
+        <Label x:Name="label10" Content="Pregunta Secreta" HorizontalAlignment="Left" Margin="209,133,0,0" VerticalAlignment="Top" FontSize="10.667"/>
+        <Label x:Name="label11" Content="Respuesta Secreta" HorizontalAlignment="Left" Margin="204,162,0,0" VerticalAlignment="Top" FontSize="10.667"/>
+        
+        <TextBox x:Name="IdtextBox" HorizontalAlignment="Left" Height="20" Margin="71,8,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+        <TextBox x:Name="NombretextBox" HorizontalAlignment="Left" Height="20" Margin="71,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+        <TextBox x:Name="ApellidostextBox" HorizontalAlignment="Left" Height="20" Margin="71,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+        <TextBox x:Name="EmailtextBox_Copy5" HorizontalAlignment="Left" Height="20" Margin="71,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+        <TextBox x:Name="NickNametextBox_Copy6" HorizontalAlignment="Left" Height="20" Margin="71,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+        <TextBox x:Name="PasswordtextBox_Copy7" HorizontalAlignment="Left" Height="20" Margin="71,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+        <TextBox x:Name="DirecciontextBox" HorizontalAlignment="Left" Height="20" Margin="304,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+        <TextBox x:Name="CodPosttextBox_Copy3" HorizontalAlignment="Left" Height="20" Margin="304,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+        <TextBox x:Name="TelefonotextBox_Copy4" HorizontalAlignment="Left" Height="20" Margin="304,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+        <ComboBox x:Name="TipoUsucomboBox" HorizontalAlignment="Left" Margin="304,100,0,0" VerticalAlignment="Top" Width="120" Height="20" Text="Elige Tipo de usuario">
+            <ComboBoxItem x:Name="MedicoComboBox">Medico</ComboBoxItem>
+            <ComboBoxItem x:Name="PeluComboBox">Peluqueria</ComboBoxItem>
+            <ComboBoxItem x:Name="AdminComboBox">Administracion</ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="PreguntaSecrretatextBox_Copy8" HorizontalAlignment="Left" Height="20" Margin="304,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+        <TextBox x:Name="RespuestaSecrettextBox_Copy9" HorizontalAlignment="Left" Height="20" Margin="304,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+    </Grid>
+</UserControl>

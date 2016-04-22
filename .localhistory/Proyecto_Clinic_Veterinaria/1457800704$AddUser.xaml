@@ -1,0 +1,100 @@
+﻿<UserControl x:Class="Proyecto_Clinic_Veterinaria.AddUser"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+             mc:Ignorable="d" Width="654" Height="655" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+    <UserControl.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <StackPanel>
+                            <Border BorderThickness="2" BorderBrush="DarkRed">
+                                <StackPanel>
+                                    <AdornedElementPlaceholder x:Name="errorControl" />
+                                </StackPanel>
+                            </Border>
+                            <TextBlock Text="{Binding AdornedElement.ToolTip , ElementName=errorControl}" Foreground="Red" FontSize="8.5" Width="Auto"/>
+                        </StackPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="BorderBrush" Value="Red" />
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Label x:Name="label12" Content="Id Usuario" HorizontalAlignment="Left" Margin="41,77,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="52,127,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Apellidos" HorizontalAlignment="Left" Margin="46,186,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Direccion" HorizontalAlignment="Left" Margin="370,77,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Codigo Postal" HorizontalAlignment="Left" Margin="347,127,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Telefono" HorizontalAlignment="Left" Margin="375,184,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6" Content="Email" HorizontalAlignment="Left" Margin="67,233,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label7" Content="Tipo de Usuario" HorizontalAlignment="Left" Margin="336,232,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label8" Content="NickName" HorizontalAlignment="Left" Margin="41,279,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label9" Content="Password" HorizontalAlignment="Left" Margin="45,329,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label10" Content="Pregunta Secreta" HorizontalAlignment="Left" Margin="330,281,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label11" Content="Respuesta Secreta" HorizontalAlignment="Left" Margin="324,329,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="IdtextBox" IsReadOnly="True" Text="{Binding SelectedItem.UsuarioId,ElementName=dataGrid, Mode=OneWay}" HorizontalAlignment="Left" Height="26" Margin="111,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="NombretextBox" Text="{Binding Nombre, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="111,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="ApellidostextBox" Text="{Binding Apellidos, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="110,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="EmailtextBox_Copy5" Text="{Binding Email, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="110,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="NickNametextBox_Copy6" Text="{Binding NickName, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="111,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="PasswordtextBox_Copy7" Text="{Binding Password, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="111,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="DirecciontextBox" Text="{Binding Direccion, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"  HorizontalAlignment="Left" Height="26" Margin="435,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <TextBox x:Name="CodPosttextBox_Copy3" Text="{Binding CodigoPostal, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="435,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <TextBox x:Name="TelefonotextBox_Copy4" Text="{Binding Telefono, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="435,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <ComboBox x:Name="TipoUsucomboBox" HorizontalAlignment="Left" Margin="435,231,0,0" VerticalAlignment="Top" Width="160" Height="26" Text="Elige Tipo de usuario" SelectionChanged="TipoUsucomboBox_SelectionChanged" >
+            <ComboBoxItem x:Name="MedicoComboBox">Medico</ComboBoxItem>
+            <ComboBoxItem x:Name="PeluComboBox">Peluqueria</ComboBoxItem>
+            <ComboBoxItem x:Name="AdminComboBox">Administracion</ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="PreguntaSecrretatextBox_Copy8" Text="{Binding PreguntaSecreta, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="435,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <TextBox x:Name="RespuestaSecrettextBox_Copy9" Text="{Binding RespuestaSecreta, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="435,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <Button x:Name="Acceptbutton" Content="Añadir" HorizontalAlignment="Left" Margin="520,360,0,0" VerticalAlignment="Top" Width="75" Height="30" Click="Acceptbutton_Click"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,429,0,0" VerticalAlignment="Top" Height="216" Width="634" ItemsSource="{Binding}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="UsuarioId" Binding="{Binding UsuarioId}"/>
+                <DataGridTextColumn Header="Nombre Completo" Binding="{Binding NombreCompleto}"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}"/>
+                <DataGridTextColumn Header="NickName" Binding="{Binding NickName}"/>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Name="UpdateButton" Click="UpdateButton_Click">
+                                    <Image Source="Icons/Edit-48.png" Width="16" Height="16" />
+                                </Button>
+                                <Button Name="DeleteButton" Click="DeleteButton_Click">
+                                    <Image Source="Icon/Delete-48.png" Width="16" Height="16" />
+                                </Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label x:Name="label" Content="Lista de Usuarios" HorizontalAlignment="Left" Margin="10,398,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label7_Copy1" Content="Busqueda Clientes: " HorizontalAlignment="Left" Margin="89,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="SearchTextbox" HorizontalAlignment="Left" Height="26" Margin="207,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <ComboBox x:Name="SearchcomboBox" HorizontalAlignment="Left" Margin="402,10,0,0" VerticalAlignment="Top" Width="111" Height="26" SelectedItem="SearchBy" SelectionChanged="SearchcomboBox_SelectionChanged">
+            <ComboBoxItem Content="Nombre"/>
+            <ComboBoxItem Content="Apellidos"/>
+            <ComboBoxItem Content="Tipo de Usuario"/>
+        </ComboBox>
+        <Button x:Name="SearchButton" Width="26" Height="26" Margin="520,10,108,619" Click="SearchButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Icons/Search-48.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</UserControl>

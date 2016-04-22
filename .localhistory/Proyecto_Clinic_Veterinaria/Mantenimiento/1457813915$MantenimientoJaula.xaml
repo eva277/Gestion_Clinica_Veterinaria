@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="Proyecto_Clinic_Veterinaria.Mantenimiento.MantenimientoJaula"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria.Mantenimiento"
+             mc:Ignorable="d" d:DesignWidth="600" Height="550">
+    <UserControl.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <StackPanel>
+                            <Border BorderThickness="2" BorderBrush="DarkRed">
+                                <StackPanel>
+                                    <AdornedElementPlaceholder x:Name="errorControl" />
+                                </StackPanel>
+                            </Border>
+                            <TextBlock Text="{Binding AdornedElement.ToolTip , ElementName=errorControl}" Foreground="Red" FontSize="8.5" Width="Auto"/>
+                        </StackPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="BorderBrush" Value="Red" />
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Label x:Name="label7_Copy1" Content="Busqueda" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,22,0,0" Width="62"/>
+        <Label x:Name="label3" Content="Ancho" HorizontalAlignment="Left" Margin="265,175,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Fondo" HorizontalAlignment="Left" Margin="351,175,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Usuario" HorizontalAlignment="Left" Margin="202,254,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Ocupada" HorizontalAlignment="Left" Margin="194,215,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Alto" HorizontalAlignment="Left" Margin="193,175,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Tipo Jaula" HorizontalAlignment="Left" Margin="189,125,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Id Jaula" HorizontalAlignment="Left" Margin="202,86,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="SearchTextbox" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Margin="192,18,0,0"/>
+        <ComboBox x:Name="SearchcomboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Height="30" SelectedItem="SearchBy" SelectionChanged="SearchcomboBox_SelectionChanged" Margin="331,18,0,0">
+            <ComboBoxItem Content="Tipo"/>
+            <ComboBoxItem Content="Medidas"/>
+            <ComboBoxItem Content="Disponibilidad"/>
+        </ComboBox>
+        <Button x:Name="SearchButton" Click="SearchButton_Click" Margin="430,18,140,502" Width="30" Height="30">
+            <Button.Background>
+                <ImageBrush ImageSource="/Proyecto_Clinic_Veterinaria;component/Icon/Search-48.png"/>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="idtextBox" Text="{Binding SelectedItem.JaulaId,ElementName=JaulasdataGrid, Mode=OneWay, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, NotifyOnValidationError=True}" HorizontalAlignment="Left" Height="23" Margin="257,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <ComboBox x:Name="TipoJaulacomboBox" HorizontalAlignment="Left" Margin="257,129,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="TipoJaulacomboBox_SelectionChanged">
+            <ComboBoxItem Content="Hotel"/>
+            <ComboBoxItem Content="Hospital"/>
+        </ComboBox>
+        <TextBox x:Name="AltotextBox" Text="{Binding Alto, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, NotifyOnValidationError=True}" HorizontalAlignment="Left" Height="23" Margin="230,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30"/>
+        <TextBox x:Name="AnchotextBox_Copy" Text="{Binding Ancho, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, NotifyOnValidationError=True}"  HorizontalAlignment="Left" Height="23" Margin="314,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30"/>
+        <TextBox x:Name="FondotextBox_Copy1" Text="{Binding Fondo, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, NotifyOnValidationError=True}" HorizontalAlignment="Left" Height="23" Margin="400,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30"/>
+        <CheckBox x:Name="OcupadacheckBox" HorizontalAlignment="Left" Margin="257,221,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="UserComboBox" HorizontalAlignment="Left" Margin="257,254,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="UserComboBox_SelectionChanged"/>
+        <DataGrid x:Name="JaulasdataGrid" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Stretch" Margin="10,360,10,0" VerticalAlignment="Top" Height="180" Width="Auto" ItemsSource="{Binding}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Jaula Id" Binding="{Binding JaulaId}"/>
+                <DataGridTextColumn Header="Tipo Jaula" Binding="{Binding TipoJaula}"/>
+                <DataGridTextColumn Header="Medidas" Binding="{Binding Medida}"/>
+                <DataGridCheckBoxColumn Header="Ocupada" Binding="{Binding Ocupada, Mode=OneWay}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="Listbutton" Content="Listar Jaulas"  Margin="10,311,468,0" Click="Listbutton_Click" Height="39" VerticalAlignment="Top"/>
+        <StackPanel Orientation="Horizontal" Margin="492,306,0,0" HorizontalAlignment="Left" Width="73" Height="40" VerticalAlignment="Top">
+            <Button x:Name="UpdateButton" Width="36" Click="UpdateButton_Click" Margin="0,2,0,1">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Proyecto_Clinic_Veterinaria;component/Icons/Edit-48.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="DeleteButton" Width="36" Click="DeleteButton_Click" Margin="0,2,0,1">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Proyecto_Clinic_Veterinaria;component/Icons/Delete-48.png"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <GridSplitter x:Name="gridSplitter1_Copy" RenderTransformOrigin="0.5,0.5" Margin="283,15,0,-26" HorizontalAlignment="Left" Width="4" Height="561" VerticalAlignment="Top" >
+            <GridSplitter.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GridSplitter.RenderTransform>
+        </GridSplitter>
+        <GridSplitter x:Name="gridSplitter1" RenderTransformOrigin="0.5,0.5" Margin="289,-292,0,0" HorizontalAlignment="Left" Width="3" Height="730" VerticalAlignment="Top" >
+            <GridSplitter.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.76" ScaleX="1.316"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GridSplitter.RenderTransform>
+        </GridSplitter>
+
+    </Grid>
+</UserControl>

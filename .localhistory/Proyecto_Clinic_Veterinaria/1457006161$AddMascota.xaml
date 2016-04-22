@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="Proyecto_Clinic_Veterinaria.AddMascota"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+             mc:Ignorable="d" Width="394" Height="614.777">
+    <Grid>
+        <Label x:Name="label" Content="Mascota Id" HorizontalAlignment="Left" Margin="60,12,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="IdtextBox" HorizontalAlignment="Left" Height="23" Margin="144,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="71,59,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NombretextBox1" HorizontalAlignment="Left" Height="23" Margin="144,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label2" Content="Especie" HorizontalAlignment="Left" Margin="71,105,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="EspecietextBox2" HorizontalAlignment="Left" Height="23" Margin="144,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label3" Content="Raza" HorizontalAlignment="Left" Margin="84,146,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="RazatextBox3" HorizontalAlignment="Left" Height="23" Margin="143,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label4" Content="Sexo" HorizontalAlignment="Left" Margin="84,181,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="FemradioButton" Content="Hembra" HorizontalAlignment="Left" Margin="143,187,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton x:Name="MaleradioButton" Content="Macho" HorizontalAlignment="Left" Margin="229,187,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4_Copy" Content="Pelaje" HorizontalAlignment="Left" Margin="83,220,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PelajetextBox3_Copy" HorizontalAlignment="Left" Height="23" Margin="142,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label4_Copy1" Content="Fecha Nacimiento" HorizontalAlignment="Left" Margin="20,270,0,0" VerticalAlignment="Top"/>
+        <DatePicker Name="FechaNacimientoDatePicker" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="141,271,0,0" SelectedDateChanged="FechaNacimientoDatePicker_SelectedDateChanged"/>
+        <Label x:Name="label4_Copy2" Content="Foto" HorizontalAlignment="Left" Margin="82,326,0,0" VerticalAlignment="Top"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="141,326,0,0">
+            <Image x:Name="image"/>
+        </Border>
+        <Label x:Name="label5" Content="Activo" HorizontalAlignment="Left" Margin="82,442,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="ActivocheckBox" HorizontalAlignment="Left" Margin="141,448,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Acceptbutton" Content="Aceptar" HorizontalAlignment="Left" Margin="115,575,0,0" VerticalAlignment="Top" Width="75" Height="30"/>
+        <Button x:Name="Calncelbutton" Content="Cancelar" HorizontalAlignment="Left" Margin="197,575,0,0" VerticalAlignment="Top" Width="75" Height="30"/>
+        <Button x:Name="LoadImgbutton" Content="Cargar Imagen" HorizontalAlignment="Left" Margin="261,396,0,0" VerticalAlignment="Top" Width="110" Height="30" Click="LoadImgbutton_Click"/>
+        <Label x:Name="label6" Content="Dueño Mascota" HorizontalAlignment="Left" Margin="35,485,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="144,485,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label6_Copy" Content="Usuario" HorizontalAlignment="Left" Margin="70,524,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="144,527,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</UserControl>

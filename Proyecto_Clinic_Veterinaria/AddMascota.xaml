@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="Proyecto_Clinic_Veterinaria.AddMascota"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+             mc:Ignorable="d" Width="650" Height="274.277">
+    <UserControl.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <StackPanel>
+                            <Border BorderThickness="2" BorderBrush="DarkRed">
+                                <StackPanel>
+                                    <AdornedElementPlaceholder x:Name="errorControl" />
+                                </StackPanel>
+                            </Border>
+                            <TextBlock Text="{Binding AdornedElement.ToolTip , ElementName=errorControl}" Foreground="Red" FontSize="8.5" Width="Auto"/>
+                        </StackPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="BorderBrush" Value="Red" />
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Canvas ScrollViewer.CanContentScroll="True"  SelectiveScrollingGrid.SelectiveScrollingOrientation="Both">
+        <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="65" Canvas.Top="24"/>
+        <TextBox x:Name="NombretextBox1" Text="{Binding Nombre, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"  HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Canvas.Left="135" Canvas.Top="22"/>
+        <Label x:Name="label2" Content="Especie" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="70" Canvas.Top="65"/>
+        <ComboBox x:Name="EspeciecomboBox"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="160"  SelectionChanged="EspeciecomboBox_SelectionChanged" Canvas.Left="135" Canvas.Top="63">
+            <ComboBoxItem Name="CaninoComboBoxItem" Content="Canino"/>
+            <ComboBoxItem Name="FelinoComboBoxItem" Content="Felino"/>
+            <ComboBoxItem Name="ExoticoComboBoxItem" Content="Exotico"/>
+        </ComboBox>
+        <Label x:Name="label3" Content="Raza" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="90" Canvas.Top="104"/>
+        <TextBox x:Name="RazatextBox"  Text="{Binding Raza, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Canvas.Left="136" Canvas.Top="104"/>
+        <Label x:Name="label4" Content="Sexo"  HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="84" Canvas.Top="150"/>
+        <RadioButton x:Name="FemradioButton"  Content="Hembra" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True" Canvas.Left="136" Canvas.Top="156"/>
+        <RadioButton x:Name="MaleradioButton"  Content="Macho" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="210" Canvas.Top="156"/>
+        <Label x:Name="label4_Copy" Content="Pelaje" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="79" Canvas.Top="192"/>
+        <TextBox x:Name="PelajetextBox3_Copy" Text="{Binding Pelaje, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Canvas.Left="133" Canvas.Top="195"/>
+        <Label x:Name="label4_Copy1" Content="Nacimiento" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="307" Canvas.Top="104"/>
+        <DatePicker Name="FechaNacimientoDatePicker" HorizontalAlignment="Left" VerticalAlignment="Top" SelectedDateChanged="FechaNacimientoDatePicker_SelectedDateChanged" Width="160" Canvas.Left="396" Canvas.Top="105"/>
+        <Label x:Name="label4_Copy2" Content="Foto" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="344" Canvas.Top="151"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="394" Canvas.Top="151">
+            <Image x:Name="image" Margin="-1,-1,1,1"/>
+        </Border>
+        <Label x:Name="label5" Content="Activo" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="77" Canvas.Top="230"/>
+        <CheckBox x:Name="ActivocheckBox"  HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="133" Canvas.Top="236"/>
+        <Label x:Name="label6" Content="Dueño" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="333" Canvas.Top="20"/>
+        <ComboBox x:Name="OwnercomboBox"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" SelectionChanged="OwnercomboBox_SelectionChanged" Canvas.Left="393" Canvas.Top="24"/>
+        <Label x:Name="label6_Copy" Content="Usuario" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="328" Canvas.Top="61"/>
+        <ComboBox x:Name="UsercomboBox"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="158" SelectionChanged="UsercomboBox_SelectionChanged" Canvas.Left="393" Canvas.Top="65"/>
+        <Button x:Name="Acceptbutton" HorizontalAlignment="Left" Width="36" Click="Acceptbutton_Click" Height="36" VerticalAlignment="Top" Canvas.Left="571" Canvas.Top="221">
+            <Button.Background>
+                <ImageBrush ImageSource="Icon/Plus-48.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="LoadImgbutton"  Content="..." HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="22" Click="LoadImgbutton_Click" Canvas.Left="499" Canvas.Top="229"/>
+    </Canvas>
+</UserControl>

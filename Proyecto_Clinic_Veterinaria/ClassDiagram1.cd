@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Proyecto_Clinic_Veterinaria.Model.Usuario">
+    <Position X="7.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAQAAAEACAihCBAAIYAAEECQAAAAgAAAAg=</HashCode>
+      <FileName>Model\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Clinic_Veterinaria.Model.TipoCita">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAQABAAACAAgAAAAIAAAAAAAAAEAAAAAAg=</HashCode>
+      <FileName>Model\TipoCita.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Clinic_Veterinaria.Model.RegistrosCitas">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAEgAAAAAAAFAIAAAAAAACAEAAAAAAA=</HashCode>
+      <FileName>Model\RegistrosCitas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Clinic_Veterinaria.Model.RegistroHotel_Hospital">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAQAAAAABAIAAAABACAAAIAAIAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Model\RegistroHotel_Hospital.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Clinic_Veterinaria.Model.Mascota">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UASQAAAAAAAQAAAAgBCAgAAAAIAAAgAgQAAEQAAAAAA=</HashCode>
+      <FileName>Model\Mascota.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Clinic_Veterinaria.Model.Jaula">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAAAAAAAgAAAAAAAAAIAAAQAAQAgEAAQAAAA=</HashCode>
+      <FileName>Model\Jaula.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Clinic_Veterinaria.Model.AvisosCita">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAQAAAACAEAACAAAAIAAIAAAAAgAAAEAAAAAAA=</HashCode>
+      <FileName>Model\AvisosCita.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Clinic_Veterinaria.Model.Cliente">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEADAAgCBAAAQAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Model\Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

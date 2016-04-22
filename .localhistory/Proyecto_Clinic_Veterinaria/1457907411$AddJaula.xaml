@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="Proyecto_Clinic_Veterinaria.AddJaula"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+             mc:Ignorable="d" Height="235.694" Width="650">
+    <Grid>
+        <Label x:Name="label" Content="Tipo Jaula" HorizontalAlignment="Left" Margin="180,22,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="TipoJaulacomboBox" HorizontalAlignment="Left" Margin="264,26,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="TipoJaulacomboBox_SelectionChanged">
+            <ComboBoxItem Content="Hotel"/>
+            <ComboBoxItem Content="Hospital"/>
+        </ComboBox>
+        <Label x:Name="label1" Content="Ocupada" HorizontalAlignment="Left" Margin="188,114,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="OcupadacheckBox" HorizontalAlignment="Left" Margin="275,117,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Alto" HorizontalAlignment="Left" Margin="182,75,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="AltotextBox" HorizontalAlignment="Left" Height="23" Margin="219,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="AnchotextBox_Copy" HorizontalAlignment="Left" Height="23" Margin="313,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="FondotextBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="407,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <Label x:Name="label3" Content="Ancho" HorizontalAlignment="Left" Margin="264,75,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Fondo" HorizontalAlignment="Left" Margin="358,75,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Usuario" HorizontalAlignment="Left" Margin="209,163,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Acceptbutton" HorizontalAlignment="Left" Margin="468,178,0,0" VerticalAlignment="Top" Width="36" Height="36" Click="Acceptbutton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Icon/Plus-48.png"/>
+            </Button.Background>
+        </Button>
+        <ComboBox x:Name="UserComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectionChanged="UserComboBox_SelectionChanged" Margin="264,163,0,0"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,90 @@
+﻿<Window x:Class="Proyecto_Clinic_Veterinaria.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+        mc:Ignorable="d"
+        Title="Animalisima" Height="800" Width="900">
+    <Window.Background>
+        <ImageBrush ImageSource="Icon/Background/3.jpg" Stretch="UniformToFill" TileMode="Tile"/>
+    </Window.Background>
+    <Window.Resources>
+        <Style x:Key="FontNew">
+            <Setter Property="TextElement.FontFamily" 
+                Value="/Fonts/#Aloha"/>
+            <Setter Property="TextElement.Foreground"
+                    Value="red"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Menu IsMainMenu="True" Margin="10,168,0,10" Block.LineStackingStrategy="BlockLineHeight" HorizontalAlignment="Left" Width="196" Background="#B2F0F0F0" BorderBrush="#FF07222C" Foreground="#FF126080">
+            <Menu.Effect>
+                <DropShadowEffect/>
+            </Menu.Effect>
+            <MenuItem Name="MenuItemClientes" Header="   Clientes" Width="171" FontSize="18.667" Height="38" Click="MenuItemClientes_Click">
+                <MenuItem.Icon >
+                    <Image Source="Icon/Clients.png" Margin="-3,-6,-22,-8"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="MenuItemPacientes" Header="   Pacientes" Width="171" FontSize="18.667" Height="39" Click="MenuItemPacientes_Click">
+                <MenuItem.Icon>
+                    <Image Source="Icon/Cat Footprint-48.png" Height="38" VerticalAlignment="Top" Margin="-6,-9,-22,-13"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="MenuItemJaulas" Header="   Jaulas" Width="171" FontSize="18.667" Height="39" Click="MenuItemJaulas_Click" >
+                <MenuItem.Icon>
+                    <Image Source="Icon/wrapping_in_front.ico" Height="30" VerticalAlignment="Top" Margin="-7,-6,-26,-8"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="MenuItemHotelHospi" Header="   Hotel/Hospital" Width="172" FontSize="18.667" Height="38" Click="MenuItemHotel_Hospi_Click" >
+                <MenuItem.Icon>
+                    <Image Source="Icon/Clinic-48.png" Margin="0,-8,-19,-10"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="MenuItemCitas" Header="   Citas" Width="172" FontSize="18.667" Height="39" Click="MenuItemCitas_Click" >
+                <MenuItem.Icon>
+                    <Image Source="Icon/note.ico" Margin="-7,-4,-26,-10"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="MenuItemRegistros" Header="   Registros" Width="172" FontSize="18.667" Height="38" Click="MenuItemRegistros_Click" >
+                <MenuItem.Icon>
+                    <Image Source="Icon/report.ico" Margin="-8,-4,-27,-8"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="MenuItemUsers" Header="   Usuarios" Width="172" FontSize="18.667" Height="39" Click="MenuItemUsers_Click" >
+                <MenuItem.Icon>
+                    <Image Source="Icon/Medical Doctor-48.png" Margin="4,-12,-21,-11"/>
+                </MenuItem.Icon>
+            </MenuItem>
+        </Menu>
+        <DockPanel Margin="211,168,10,10" Background="#7FECECEC">
+            <DockPanel.Effect>
+                <DropShadowEffect/>
+            </DockPanel.Effect>
+            <!--<ToolBarTray DockPanel.Dock="Top">
+                <ToolBar>
+                    <Button Command="New" Content="New" />
+                    <Button Command="Open" Content="Open" />
+                    <Button Command="Save" Content="Save" />
+                </ToolBar>
+                <ToolBar>
+                    <Button Command="Cut" Content="Cut" />
+                    <Button Command="Copy" Content="Copy" />
+                    <Button Command="Paste" Content="Paste" />
+                </ToolBar>
+            </ToolBarTray>-->
+            <Label DockPanel.Dock="Top" Name="Titulo" Content="" VerticalAlignment="Top" FontSize="20pt" FontWeight="DemiBold"  Style="{DynamicResource FontNew}" Margin="100,0" HorizontalAlignment="Center"/>
+            <Canvas Name="canvas" Margin="0,5,0,0"/>
+        </DockPanel>
+        <Image x:Name="image1" Height="148" VerticalAlignment="Top" Source="Icon/banner_of.png" Margin="10,10,10,0" Stretch="Fill">
+            <Image.Effect>
+                <DropShadowEffect Color="#FF0E4C28" RenderingBias="Quality"/>
+            </Image.Effect>
+        </Image>
+
+    </Grid>
+</Window>

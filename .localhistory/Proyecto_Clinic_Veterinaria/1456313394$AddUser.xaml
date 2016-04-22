@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="Proyecto_Clinic_Veterinaria.AddUser"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+             mc:Ignorable="d" Width="501.733" Height="361.777" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+    <Grid Margin="10,10,10,10">
+        <Label x:Name="label" Content="Usuario Id" HorizontalAlignment="Left" Margin="27,7,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="37,48,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Apellidos" HorizontalAlignment="Left" Margin="32,98,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Direccion" HorizontalAlignment="Left" Margin="272,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Codigo Postal" HorizontalAlignment="Left" Margin="249,51,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Telefono" HorizontalAlignment="Left" Margin="277,97,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6" Content="Email" HorizontalAlignment="Left" Margin="53,145,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label7" Content="Tipo de Usuario" HorizontalAlignment="Left" Margin="238,145,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label8" Content="NickName" HorizontalAlignment="Left" Margin="26,187,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label9" Content="Password" HorizontalAlignment="Left" Margin="31,232,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label10" Content="Pregunta Secreta" HorizontalAlignment="Left" Margin="232,189,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label11" Content="Respuesta Secreta" HorizontalAlignment="Left" Margin="226,232,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="IdtextBox" HorizontalAlignment="Left" Height="26" Margin="96,8,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="NombretextBox" HorizontalAlignment="Left" Height="26" Margin="96,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ApellidostextBox" HorizontalAlignment="Left" Height="26" Margin="96,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="EmailtextBox_Copy5" HorizontalAlignment="Left" Height="26" Margin="96,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="NickNametextBox_Copy6" HorizontalAlignment="Left" Height="26" Margin="96,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="PasswordtextBox_Copy7" HorizontalAlignment="Left" Height="26" Margin="97,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DirecciontextBox" HorizontalAlignment="Left" Height="26" Margin="337,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="CodPosttextBox_Copy3" HorizontalAlignment="Left" Height="26" Margin="337,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TelefonotextBox_Copy4" HorizontalAlignment="Left" Height="26" Margin="337,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="TipoUsucomboBox" HorizontalAlignment="Left" Margin="337,144,0,0" VerticalAlignment="Top" Width="120" Height="26" Text="Elige Tipo de usuario">
+            <ComboBoxItem x:Name="MedicoComboBox">Medico</ComboBoxItem>
+            <ComboBoxItem x:Name="PeluComboBox">Peluqueria</ComboBoxItem>
+            <ComboBoxItem x:Name="AdminComboBox">Administracion</ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="PreguntaSecrretatextBox_Copy8" HorizontalAlignment="Left" Height="26" Margin="337,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="RespuestaSecrettextBox_Copy9" HorizontalAlignment="Left" Height="26" Margin="337,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Acceptbutton" Content="Aceptar" HorizontalAlignment="Left" Margin="171,302,0,0" VerticalAlignment="Top" Width="75" Height="30" Click="Acceptbutton_Click"/>
+        <Button x:Name="Calncelbutton1" Content="Cancelar" HorizontalAlignment="Left" Margin="253,302,0,0" VerticalAlignment="Top" Width="75" Height="30"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,135 @@
+﻿<UserControl x:Class="Proyecto_Clinic_Veterinaria.AddClient"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_Clinic_Veterinaria"
+             mc:Ignorable="d" Width="600" Height="550" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+    <UserControl.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <StackPanel>
+                            <Border BorderThickness="2" BorderBrush="DarkRed">
+                                <StackPanel>
+                                    <AdornedElementPlaceholder x:Name="errorControl" />
+                                </StackPanel>
+                            </Border>
+                            <TextBlock Text="{Binding AdornedElement.ToolTip , ElementName=errorControl}" Foreground="Red" FontSize="8.5" Width="Auto"/>
+                        </StackPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="BorderBrush" Value="Red" />
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid Margin="10,10,10,10">
+        <Label x:Name="label7_Copy1" Content="Busqueda Clientes: " HorizontalAlignment="Left" Margin="42,30,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="SearchTextbox" HorizontalAlignment="Left" Height="26" Margin="160,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <ComboBox x:Name="SearchcomboBox" HorizontalAlignment="Left" Margin="355,30,0,0" VerticalAlignment="Top" Width="111" Height="26" SelectedItem="SearchBy" SelectionChanged="SearchcomboBox_SelectionChanged">
+            <ComboBoxItem Content="Nombre"/>
+            <ComboBoxItem Content="Apellidos"/>
+        </ComboBox>
+        <Button Name="SearchButton" Width="26" Height="26" Margin="471,30,79,474" Click="SearchButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Icons/Search-48.png"/>
+            </Button.Background>
+        </Button>
+
+        <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="42,98,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Apellidos" HorizontalAlignment="Left" Margin="239,98,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6" Content="Direccion" HorizontalAlignment="Left" Margin="36,146,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2_Copy" Content="Codigo Postal" HorizontalAlignment="Left" Margin="284,191,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6_Copy" Content="Telefono" HorizontalAlignment="Left" Margin="42,191,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Email" HorizontalAlignment="Left" Margin="58,232,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="NombretextBox" Text="{Binding Nombre, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, NotifyOnValidationError=True}" HorizontalAlignment="Left" Height="26" Margin="101,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127"/>
+        <TextBox x:Name="ApellidostextBox" Text="{Binding Apellidos, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, NotifyOnValidationError=True}" HorizontalAlignment="Left" Height="26" Margin="303,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
+        <TextBox x:Name="TelefonoTextbox" Text="{Binding Telefono, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, NotifyOnValidationError=True}" HorizontalAlignment="Left" Height="26" Margin="101,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:Name="DirecciontextBox_Copy5" Text="{Binding Direccion, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, NotifyOnValidationError=True}" HorizontalAlignment="Left" Height="26" Margin="101,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="394"/>
+        <TextBox x:Name="CodigoPostalTextbox" Text="{Binding CodigoPostal, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, NotifyOnValidationError=True}" HorizontalAlignment="Left" Height="26" Margin="370,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="EmailtextBox" Text="{Binding Email, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True, NotifyOnValidationError=True}" HorizontalAlignment="Left" Height="23" Margin="101,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+
+        <DataGrid x:Name="ClientesdataGrid" HorizontalAlignment="Left" Margin="10,319,0,0" VerticalAlignment="Top" Height="201" Width="560" ItemsSource="{Binding}" AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Cliente Id" Binding="{Binding ClienteId}"/>
+                <DataGridTextColumn Header="Nombre Completo" Binding="{Binding NombreCompleto}"/>
+                <DataGridTextColumn Header="Direccion" Binding="{Binding Direccion}"/>
+                <DataGridTextColumn Header="Telefono" Binding="{Binding Telefono}"/>
+                <DataGridHyperlinkColumn Header="Email" Binding="{Binding Email}"/>
+                <DataGridTemplateColumn Header=" Mascotas">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Name="UpdateButton" Click="UpdateButton_Click">
+                                    <Image Source="Icons/Edit-48.png" Width="16" Height="16" />
+                                </Button>
+                                <Button Name="DeleteButton" Click="DeleteButton_Click">
+                                    <Image Source="Icon/Delete-48.png" Width="16" Height="16" />
+                                </Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ListView ItemsSource="{Binding ListaMascota}">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Nombre Mascota" >
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <TextBox Name="StringTextBox" Text="{Binding Path=Nombre}" />
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Raza Mascota" >
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <TextBox Name="StringTextBox" Text="{Binding Path=Raza}" />
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="Acceptbutton" Content="Añadir" HorizontalAlignment="Left" Margin="370,232,0,0" VerticalAlignment="Top" Width="125" Height="30" Click="Acceptbutton_Click"/>
+        <Label x:Name="label7_Copy" Content="Lista de Clientes" HorizontalAlignment="Left" Margin="32,288,0,0" VerticalAlignment="Top"/>
+        <GridSplitter x:Name="gridSplitter" HorizontalAlignment="Left" Height="463" Margin="266,-153,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="2">
+            <GridSplitter.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GridSplitter.RenderTransform>
+        </GridSplitter>
+        <GridSplitter x:Name="gridSplitter_Copy" HorizontalAlignment="Left" Height="463" Margin="261,52,0,-35" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="2">
+            <GridSplitter.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GridSplitter.RenderTransform>
+        </GridSplitter>
+        <Label x:Name="Idlabel" Content="{Binding SelectedItem.ClienteId,ElementName=ClientesdataGrid, Mode=OneWay}" HorizontalAlignment="Left" Margin="190,308,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="303,364,0,0" TextWrapping="Wrap" Text="{Binding SelectedItem.ClienteId,ElementName=ClientesdataGrid, Mode=OneWay}" VerticalAlignment="Top" Visibility="Hidden"/>
+    </Grid>
+</UserControl>
